@@ -23,4 +23,16 @@ const teamMembers = [
     favoriteBook: "Cien años de Soledad",
     petName: "Haru",
   },
+  {
+    name: "Manuel",
+    surname: "Benitez",
+    age: "29",
+    city: "Palma",
+    hobby: "Skate",
+    favoriteFood: "Milanesa",
+    favoriteVideoGame: "Catan",
+    favoriteFilm: "",
+    favoriteBook: "",
+    petName: "",
+  },
 ];
