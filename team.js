@@ -42,12 +42,12 @@ const teamMembers = [
 
 
 /* Printing in alphabetical order */
-var teamMembersSurname = [];
+let teamMembersSurname = [];
 teamMembers.forEach((member,indx) => {
   teamMembersSurname.push([member.surname,indx]);
 });
-var orderedSurname = teamMembersSurname.sort();
-var newTeamMembers = [];
+let orderedSurname = teamMembersSurname.sort();
+let newTeamMembers = [];
 orderedSurname.forEach((member,indx)=>{
   newTeamMembers.push(teamMembers[member[indx,1]])
 })
