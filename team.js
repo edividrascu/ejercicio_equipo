@@ -52,3 +52,13 @@ orderedSurname.forEach((member,indx)=>{
   newTeamMembers.push(teamMembers[member[indx,1]])
 })
 console.log(newTeamMembers)
+
+
+/*Printing who has a pet*/
+let whoHasAPet = [];
+teamMembers.forEach((member) => {
+  if(member.petName != ""){
+    whoHasAPet.push([member.name]);
+  }
+});
+console.log("\nThese members have a pet: \n" + whoHasAPet)
