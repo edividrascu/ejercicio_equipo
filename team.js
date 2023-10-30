@@ -36,3 +36,19 @@ const teamMembers = [
     petName: "",
   },
 ];
+
+
+
+
+
+/* Printing in alphabetical order */
+var teamMembersSurname = [];
+teamMembers.forEach((member,indx) => {
+  teamMembersSurname.push([member.surname,indx]);
+});
+var orderedSurname = teamMembersSurname.sort();
+var newTeamMembers = [];
+orderedSurname.forEach((member,indx)=>{
+  newTeamMembers.push(teamMembers[member[indx,1]])
+})
+console.log(newTeamMembers)
