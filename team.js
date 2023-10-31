@@ -35,4 +35,16 @@ const teamMembers = [
     favoriteBook: "",
     petName: "",
   },
+  {
+    name: "Rafael",
+    surname: "Coin",
+    age: "27",
+    city: "Malaga",
+    hobby: "Libros",
+    favoriteFood: "Ramen",
+    favoriteVideoGame: "The binding of Isaac",
+    favoriteFilm: "El señor de los Anillos",
+    favoriteBook: "Stormlight Archive",
+    petName: "Kal",
+  },
 ];
