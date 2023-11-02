@@ -36,3 +36,15 @@ const teamMembers = [
     petName: "",
   },
 ];
+const nameCount = {};
+
+teamMembers.forEach((member) => {
+  const name = member.name;
+  nameCount[name] = (nameCount[name] || 0) + 1;
+});
+
+for (const name in nameCount) {
+  if (nameCount[name] > 1) {
+    console.log(`El nombre "${name}" se repite ${nameCount[name]} veces en el equipo.`);
+  }
+}
