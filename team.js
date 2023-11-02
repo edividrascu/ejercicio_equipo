@@ -48,3 +48,12 @@ const teamMembers = [
     petName: "Kal",
   },
 ];
+
+const age = teamMembers.map (item => item.age);
+  console.log(age);
+  var number = age.map(Number);
+  let edadMedia=0;
+  console.log(number);
+  for(let i=0; i<number.length; i++) {edadMedia+=number[i];}
+  let media=edadMedia/number.length;
+  console.log(media);
